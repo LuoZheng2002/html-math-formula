@@ -1,25 +1,45 @@
 .mainDiv{
     font-size: 60px;
+    outline: 0px;
+    /* padding: 5px; */
+    /* vertical-align: middle; */
 }
-.superScript
+.horizontal-container{
+    /* padding: 5px; */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.character-container
+{
+    display: inline-block;
+    /* padding:0; */
+}
+.small
+{
+    font-size: 30px;
+}
+.very-small
+{
+    font-size:20px;
+}
+.super-script
 {
     display: block;
     margin-top: 2px;
     margin-left: 2px;
     margin-right: 2px;
-    margin-bottom: 10px;
-    font-size: 30px;
+    margin-bottom: 1px;
 }
-.subScript
+.sub-script
 {
     display: block;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: 2px;
     margin-right: 2px;
     margin-bottom: 2px;
-    font-size: 30px;
 }
-.superSubScript
+.super-sub-script
 {
     display: inline-block;
     vertical-align: middle;
